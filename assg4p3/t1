@@ -1,0 +1,11 @@
+int f(int f, int a)
+{
+    int f;
+    f = 10;
+    while (a > 10)
+    {
+        int f;
+        f = f % a;
+        a = a - f;
+    }
+}
