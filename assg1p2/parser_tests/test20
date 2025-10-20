@@ -1,0 +1,15 @@
+/* several functions, each with a non-empty body */
+int f() { a(); }
+
+int g()
+{
+    b();
+    c();
+}
+
+int h()
+{
+    d();
+    e();
+    f();
+}

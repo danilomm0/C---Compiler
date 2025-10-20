@@ -1,0 +1,21 @@
+/* a simple one-line comment */
+
+/**** more complex comments ***/
+
+	  	abcde	/* more complex comments:
+   a simple
+   multi-line
+   comment
+   */
+
++ - * /
+/************************
+ ************************
+ * more complex comment *
+ ************************
+ ************************/
+	/* << tab */
+
+
+12345
+

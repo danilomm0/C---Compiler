@@ -1,0 +1,2 @@
+/* a single function with a non-empty body */
+int f() { a(); }

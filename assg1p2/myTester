@@ -1,0 +1,14 @@
+#!/bin/bash
+testFiles=$(ls parser_tests/test*)
+for file in $testFiles
+do
+  compile <$file >myOut 2>myErr
+  echo $? >>myOut
+  excompile <$file >exOut 2>exErr
+  echo $? >>exOut
+  echo Test File $file
+  echo stdout diffs:
+  diff -Z myOut exOut
+  echo stderr diffs:
+  diff -Z myErr exErr
+done
