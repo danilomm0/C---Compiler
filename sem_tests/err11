@@ -1,0 +1,3 @@
+int f() {
+  if (f > 0) ;  /* f is the wrong type */
+}

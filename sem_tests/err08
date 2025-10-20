@@ -1,0 +1,3 @@
+int f() {
+  while (x > 0) ;  /* x undeclared */
+}

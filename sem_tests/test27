@@ -1,0 +1,33 @@
+/* if and if-else stmts with {} stmts */
+
+int f() {
+  int x;
+  {
+    if (x > 0) {
+    }
+  }
+}
+
+int g() {
+  int x;
+  {
+    if (x > 0) {
+    }
+    else {
+    }
+  }
+}
+
+int h() {
+  int x;
+  {
+    if (x > 0) {
+      {
+      }
+    }
+    else {
+      {
+      }
+    }
+  }
+}

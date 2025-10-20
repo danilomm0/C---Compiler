@@ -1,0 +1,25 @@
+/* if + function calls */
+
+int f(int x) {
+  if (x > 0)
+    f(0);
+}
+
+int g(int x, int y) {
+  if (x > 0)
+    g(x, y);
+}
+
+int h(int x) {
+  if (x > 0)
+    ;
+  else
+    f(0);
+}
+
+int i(int x, int y) {
+  if (x > 0)
+    ;
+  else
+    g(x, y);
+}

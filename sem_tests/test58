@@ -1,0 +1,10 @@
+/* nested if + assignment + return */
+
+int f(int x, int y) {
+  if (x > 0) {
+    if (y != x) {
+      x = y;
+    }
+  }
+  return;
+}

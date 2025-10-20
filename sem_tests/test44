@@ -1,0 +1,22 @@
+/* function calls */
+
+int f() {
+  f();
+}
+
+int g(int x) {
+  f();
+}
+
+int h(int x, int y) {
+  g(0);
+}
+
+int i(int x, int y) {
+  h(0, 1);
+}
+
+int j(int x, int y) {
+  h(y, x);
+}
+

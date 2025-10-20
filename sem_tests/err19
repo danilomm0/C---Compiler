@@ -1,0 +1,7 @@
+int f(int x) {
+  return x;
+}
+
+int g() {
+  f(g);  /* g is a function */
+}

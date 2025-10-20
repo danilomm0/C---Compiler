@@ -1,0 +1,10 @@
+/* local decls + return statements */
+
+int f() { int x; return x; }
+int g() { int x, y; return x; return y; }
+int h() {
+  int x;
+  int y;
+  return x;
+  return y;
+}

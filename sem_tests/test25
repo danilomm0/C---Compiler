@@ -1,0 +1,3 @@
+/* function call inside {} */
+
+int f() { { f(); } }

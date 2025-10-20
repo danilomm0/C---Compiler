@@ -1,0 +1,33 @@
+/* if statements with empty body */
+
+int x, y;
+
+int f0() {
+  if (x > y)
+    ;
+}
+
+int f1() {
+  if (x >= y)
+    ;
+}
+
+int f2() {
+  if (x < y)
+    ;
+}
+
+int f3() {
+  if (x <= y)
+    ;
+}
+
+int f4() {
+  if (x == y)
+    ;
+}
+
+int f5() {
+  if (x != y)
+    ;
+}

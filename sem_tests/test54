@@ -1,0 +1,10 @@
+/* if + while + function call + return */
+
+int f(int x, int y, int z) {
+  y = 0;
+  while (x > 0)
+    if (x != 0)
+      f(x, 0, 25);
+
+  return y;
+}

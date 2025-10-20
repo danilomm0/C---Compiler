@@ -1,0 +1,12 @@
+/* while + function calls */
+
+int f(int x) {
+  while (x > 0)
+    f(0);
+}
+
+int g(int x, int y) {
+  while (x > 0)
+    g(x, y);
+}
+

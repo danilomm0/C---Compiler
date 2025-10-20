@@ -1,0 +1,13 @@
+/* while + return */
+
+int f(int x) {
+  while (x > 0) return;
+}
+
+int g(int x) {
+  while (x > 0) return 0;
+}
+
+int h(int x) {
+  while (x > 0) return x;
+}

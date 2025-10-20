@@ -1,0 +1,7 @@
+/* return with variables as arguments */
+
+int x;
+int f() { return x; }
+int y;
+int g() { return x; return y; }
+

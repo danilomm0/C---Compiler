@@ -1,0 +1,3 @@
+int f(int x) {
+  x = f ;  /* f is a function */
+}

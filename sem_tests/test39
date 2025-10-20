@@ -1,0 +1,16 @@
+/* while + if */
+
+int f(int x) {
+  while (x > 0)
+    if (x > 0)
+      ;
+}
+
+int g(int x) {
+  while (x > 0)
+    if (x > 0)
+      ;
+    else
+      ;
+}
+

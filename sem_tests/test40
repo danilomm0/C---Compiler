@@ -1,0 +1,19 @@
+/* while + assignment */
+
+int f(int x) {
+  while (x > 0)
+    x = 1;
+}
+
+int g(int x) {
+  x = 0;
+  while (x > 0)
+    x = 1;
+}
+
+int h(int x) {
+  x = 0;
+  while (x > 0)
+    x = 1;
+  x = 2;
+}

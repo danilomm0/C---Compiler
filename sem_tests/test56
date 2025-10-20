@@ -1,0 +1,10 @@
+/* nested if + function call + return */
+
+int f(int x, int y) {
+  if (x > 0) {
+    if (y != x) {
+      f(y, x);
+    }
+  }
+  return;
+}

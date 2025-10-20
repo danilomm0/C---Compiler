@@ -1,0 +1,3 @@
+int f() {
+  if (x > 0) ;  /* x undeclared */
+}

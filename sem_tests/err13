@@ -1,0 +1,3 @@
+int f() {
+  f = 0 ;  /* f is a function */
+}

@@ -1,0 +1,20 @@
+/* ; + function calls */
+
+int f() {
+  ;
+  ;
+  f();
+  ;
+  ;
+  ;
+}
+
+int g() {
+  int x, y
+  ;
+  ;
+  f();
+  ;
+  ;
+  ;
+}

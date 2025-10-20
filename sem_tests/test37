@@ -1,0 +1,46 @@
+/* if + return */
+
+int f() {
+  int x;
+  if (x > 0) return;
+}
+
+int g() {
+  int x;
+  if (x > 0) return 0;
+}
+
+int h() {
+  int x;
+  if (x > 0) return x;
+}
+
+int y;
+
+int i() {
+  int x;
+  if (x > 0) return x;
+  else return y;
+}
+
+int j() {
+  int x, y, z;
+
+  if (x > 0)
+    return x;
+  else
+    return y;
+
+  return z;
+}
+
+int k() {
+  int x, y, z;
+
+  return z;
+  if (x > 0)
+    return x;
+  else
+    return y;
+}
+

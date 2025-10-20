@@ -1,0 +1,2 @@
+int x, y;
+int f() { y = x; }

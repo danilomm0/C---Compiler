@@ -1,0 +1,10 @@
+/* while + while */
+
+int f() {
+  int x, y;
+
+  while (x > 0)
+    while (y < 10)
+      ;
+}
+

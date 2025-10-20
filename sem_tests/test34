@@ -1,0 +1,54 @@
+/* if + if */
+
+int f() {
+  int x, y;
+
+  if (x > 0)
+    if (y < 10)
+      ;
+}
+
+int g() {
+  int x, y;
+
+  if (x > 0)
+    if (y < 10)
+      ;
+    else
+      ;
+}
+
+int h() {
+  int x, y;
+
+  if (x > 0)
+    if (y < 10)
+      ;
+    else
+      ;
+  else
+    ;
+}
+
+int i() {
+  int x, y;
+
+  if (x > 0) {
+    if (y < 10)
+      ;
+  }
+  else
+    ;
+}
+
+int j() {
+  int x, y;
+
+  if (x > 0) {
+    if (y < 10)
+      ;
+    else
+      ;
+  }
+}
+

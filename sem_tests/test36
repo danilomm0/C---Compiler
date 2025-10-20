@@ -1,0 +1,55 @@
+/* if + assignment */
+
+int f() {
+  int x;
+  if (x > 0)
+    x = 1;
+}
+
+int g() {
+  int x;
+  if (x > 0)
+    x = 1;
+  else
+    x = 0;
+}
+
+int h() {
+  int x;
+
+  x = 5;
+  if (x > 0)
+    x = 1;
+  else
+    x = 0;
+}
+
+int i(int x, int y) {
+  x = y;
+  if (x > 0)
+    x = 1;
+  else
+    y = 0;
+}
+
+int j(int x, int y) {
+  x = y;
+  if (x > 0) {
+    x = 1;
+  }
+  else {
+    y = 1;
+  }
+}
+
+int k(int x, int y) {
+  x = y;
+  if (x > 0) {
+    x = 1;
+    y = 0;
+  }
+  else {
+    y = 1;
+    x = 0;
+  }
+}

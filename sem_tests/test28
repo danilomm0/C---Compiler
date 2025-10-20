@@ -1,0 +1,23 @@
+/* {} + assignment */
+
+int f() {
+  int x;
+  {
+    x = 0;
+  }
+}
+
+int g(int y) {
+  int x;
+  {
+    x = y;
+  }
+}
+
+int h(int x, int y) {
+  {
+    {
+      x = y;
+    }
+  }
+}

@@ -1,0 +1,4 @@
+/* sequence of return statements */
+
+int f(int x) { return x; }
+int g(int x, int y) { return x; return y; }

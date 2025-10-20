@@ -1,0 +1,22 @@
+/* return + function calls */
+
+int f(int x) {
+  return;
+  f(0);
+}
+
+int g(int x) {
+  f(0);
+  return;
+}
+
+int h(int x) {
+  f(0);
+  return x;
+}
+
+int i(int x) {
+  return 0;
+  f(x);
+}
+

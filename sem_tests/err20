@@ -1,0 +1,7 @@
+int f(int x) {
+  {
+    {
+      x = y ;  /* y undeclared */
+    }
+  }
+}

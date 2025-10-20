@@ -1,0 +1,12 @@
+/* {} + function calls */
+
+int f() {
+  int x, y;
+  {
+    f();
+    {
+      f();
+    }
+  }
+}
+    
